@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cypher", "RpgCypher\Cypher.csproj", "{C5A4F766-E827-43DF-AF55-5556A16BC1EA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1AF27CA0-5F0E-40AD-9886-886E9C680E04} = {1AF27CA0-5F0E-40AD-9886-886E9C680E04}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CypherTests", "CypherTests\CypherTests.csproj", "{14570FBA-E97B-4729-BA6A-03A93383FB62}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1AF27CA0-5F0E-40AD-9886-886E9C680E04} = {1AF27CA0-5F0E-40AD-9886-886E9C680E04}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgCyphers", "RpgCyphers\RpgCyphers.csproj", "{1AF27CA0-5F0E-40AD-9886-886E9C680E04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5A4F766-E827-43DF-AF55-5556A16BC1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A4F766-E827-43DF-AF55-5556A16BC1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A4F766-E827-43DF-AF55-5556A16BC1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A4F766-E827-43DF-AF55-5556A16BC1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14570FBA-E97B-4729-BA6A-03A93383FB62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14570FBA-E97B-4729-BA6A-03A93383FB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14570FBA-E97B-4729-BA6A-03A93383FB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14570FBA-E97B-4729-BA6A-03A93383FB62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AF27CA0-5F0E-40AD-9886-886E9C680E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF27CA0-5F0E-40AD-9886-886E9C680E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF27CA0-5F0E-40AD-9886-886E9C680E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF27CA0-5F0E-40AD-9886-886E9C680E04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54C6AC25-FD16-48EE-9C8A-256F001F4E9D}
+	EndGlobalSection
+EndGlobal
